@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload Dataset</a>
+        <a href="select_comment.html">Select Comment</a>
+        <a href="predict_sentiment.html">Predict Sentiment</a>
+        <a href="report.html">Report</a>
+        <a href="about.html">About Us</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <div class="container">
+        <h1>Sentiment Analysis Report</h1>
+        <p>Visual representation of the sentiment distribution.</p>
+
+        <div class="chart-container">
+            <img src="{{ url_for('static', filename='sentiment_chart.png') }}" alt="Sentiment Chart">
+        </div>
+
+        <form action="/feedback">
+            <button type="submit">Next → Give Feedback</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 Tamil Sentiment Analysis. All rights reserved.
+    </footer>
+
+</body>
+</html>

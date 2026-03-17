@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File - Tamil Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload File</a>
+        <a href="select_comment.html">Select Comment</a>
+        <a href="predict_sentiment.html">Predict Sentiment</a>
+        <a href="report.html">Report</a>
+        <a href="about.html">About Us</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Upload a File</h1>
+        <p>Select a file containing Tamil text data for sentiment analysis.</p>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt,.csv">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Tamil Sentiment Analysis. All rights reserved.
+    </footer>
+
+</body>
+</html>

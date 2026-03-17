@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Sentiment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload Dataset</a>
+        <a href="select_comment.html">Select Comment</a>
+        <a href="predict_sentiment.html">Predict Sentiment</a>
+        <a href="report.html">Report</a>
+        <a href="about.html">About Us</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <div class="container">
+        <h1>Sentiment Prediction</h1>
+        <p>Analyzing the sentiment of your selected comment.</p>
+
+        <div class="comment-box">
+            <h3>Selected Comment:</h3>
+            <p><strong>{{ comment }}</strong></p>
+        </div>
+
+        <div class="prediction-box">
+            <h2>Predicted Sentiment:</h2>
+            <p class="sentiment-result">{{ sentiment }}</p>
+        </div>
+
+        <form action="/report">
+            <button type="submit">Next → View Report</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 Tamil Sentiment Analysis. All rights reserved.
+    </footer>
+
+</body>
+</html>

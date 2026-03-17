@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2d89d; /* Light green background */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #064d06; /* Dark green */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    color: #064d06; /* Dark green text */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Button */
+button {
+    background-color: #064d06;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #053b05; /* Slightly darker green */
+}
+
+/* Footer */
+footer {
+    background-color: #064d06;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
