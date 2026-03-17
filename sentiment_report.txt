@@ -1,0 +1,9 @@
+📊 Sentiment Analysis Report
+
+Total Comments: 400
+Sentiment Distribution:
+Sentiment
+0    160
+2    136
+1    104
+

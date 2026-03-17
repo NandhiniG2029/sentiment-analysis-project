@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+joblib
+nltk
+flask
+matplotlib
+seaborn
+openpyxl
+yt-dlp
+transformers
+torch
